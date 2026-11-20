@@ -21,3 +21,4 @@ every change goes through a feature branch and a reviewed Pull Request.
 | Version | Change |
 |---|---|
 | v1 | S3 bucket with versioning and tags (baseline) |
+| v2 | Added CostCenter tag and cost_center variable (via feature branch + reviewed PR) |

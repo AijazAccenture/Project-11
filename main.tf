@@ -6,6 +6,7 @@ resource "aws_s3_bucket" "demo" {
     Environment = var.environment
     Owner       = var.owner
     ManagedBy   = "Terraform"
+    CostCenter  = var.cost_center
   }
 }
 
