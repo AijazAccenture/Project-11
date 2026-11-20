@@ -21,3 +21,9 @@ variable "owner" {
   type        = string
   default     = "AijazAccenture"
 }
+
+variable "cost_center" {
+  description = "Cost center code used for billing tags"
+  type        = string
+  default     = "CC-1001"
+}
